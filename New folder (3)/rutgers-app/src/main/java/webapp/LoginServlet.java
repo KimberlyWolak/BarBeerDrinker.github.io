@@ -31,13 +31,23 @@ import javax.servlet.http.HttpServletResponse;
 //4. How is the response created?
 
 @WebServlet(urlPatterns = "/login.do")
+
 public class LoginServlet extends HttpServlet {
 
-	@Override
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
+	{
 		PrintWriter out = response.getWriter();
 		request.getRequestDispatcher("/WEB-INF/views/login.jsp").forward(request,response);
 
 	}
-
+	
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
+	{
+		
+			PrintWriter out = response.getWriter();
+			request.getRequestDispatcher("/WEB-INF/views/bar.jsp").forward(request,response);
+			
+	}
+	
+	
 }

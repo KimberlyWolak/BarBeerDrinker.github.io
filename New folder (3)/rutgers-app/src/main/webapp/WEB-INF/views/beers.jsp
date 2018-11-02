@@ -6,32 +6,23 @@
 <title>Bar Beer Drinker Plus</title>
  
 <style>
-body {
+body 
+{
         background-image: url("https://wallpaper.wiki/wp-content/uploads/2017/06/Old-map-with-a-compass-on-it-wallpapers-HD.jpg");
-}  
-</style>
+} 
  
+</style>
  
 </head>
  
 <body>
  <center>
  <font size="26">
-  Bar Beer Drinkers
+BEER
   </font>
  </center>
 </body>
 
-
-<center>
-<div class="container">
-		<form action="/login.do" method="post">	
-				<input type="submit" name="Bars" value="Bars"  />
-				<input type="submit" name="Beers" value="Beers" />
-				<input type="submit" name="Drinkers" value="Drinkers" />			
-		</form>
-</div>
-<center>
 
 
 
