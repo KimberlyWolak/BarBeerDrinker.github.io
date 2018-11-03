@@ -8,18 +8,19 @@
 <style>
 body 
 {
-        background-image: url("https://wallpaper.wiki/wp-content/uploads/2017/06/Old-map-with-a-compass-on-it-wallpapers-HD.jpg");
+        background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/VA6SJW4tgijzcn7ja/pirate-flag-waving_r19govsr__F0000.png");
+        background-size:100% 1400%;
+
 } 
- 
 </style>
  
 </head>
  
 <body>
  <center>
- <font size="26">
-  BAR
-  </font>
+ <font size="26" color="white">
+ 	 Drinkers
+ </font>
  </center>
 </body>
 

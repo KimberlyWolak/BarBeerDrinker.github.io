@@ -8,7 +8,8 @@
 <style>
 body 
 {
-        background-image: url("https://wallpaper.wiki/wp-content/uploads/2017/06/Old-map-with-a-compass-on-it-wallpapers-HD.jpg");
+		background-image: url("http://cdn.obsidianportal.com/assets/250707/battle_ship_by_gongsang81-d6d9xeu.jpg");
+        background-size:100% 1400%;
 } 
  
 </style>
@@ -17,9 +18,9 @@ body
  
 <body>
  <center>
- <font size="26">
-  BAR
-  </font>
+ <font size="26" color = "white">
+  	Bars
+ </font>
  </center>
 </body>
 

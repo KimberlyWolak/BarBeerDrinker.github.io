@@ -43,9 +43,23 @@ public class LoginServlet extends HttpServlet {
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
 	{
+
+		System.out.println(request.getContentType());
 		
-			PrintWriter out = response.getWriter();
-			request.getRequestDispatcher("/WEB-INF/views/bar.jsp").forward(request,response);
+        String button = request.getParameter("button");
+
+        if ("Bars".equals(button)) 
+        {
+        	 request.getRequestDispatcher("/WEB-INF/views/bar.jsp").forward(request,response); 
+        } 
+        else if ("Beers".equals(button)) 
+        {
+        	 request.getRequestDispatcher("/WEB-INF/views/beers.jsp").forward(request,response);
+        } 
+        else if ("Drinkers".equals(button))
+        {
+        	 request.getRequestDispatcher("/WEB-INF/views/drinkers.jsp").forward(request,response);
+        }
 			
 	}
 	

@@ -8,7 +8,8 @@
 <style>
 body 
 {
-        background-image: url("https://wallpaper.wiki/wp-content/uploads/2017/06/Old-map-with-a-compass-on-it-wallpapers-HD.jpg");
+        background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/04/03/31/6058076bd9849b8.jpg");
+        background-size:100% 1400%;
 } 
  
 </style>
@@ -17,8 +18,8 @@ body
  
 <body>
  <center>
- <font size="26">
-BEER
+ <font size="26" color="white">
+	Beers
   </font>
  </center>
 </body>
